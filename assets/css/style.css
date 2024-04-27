@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: auto;    
+    background-color: #3E403F;
+}
+header .title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #d9d9d9;
+    font-size: 80px;
+}
+
+header .desc {
+    color: #A4A5A6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+header a {
+    text-decoration: none;
+    color:#d9d9d9;
+}
+
+a:hover {
+    color:#A4A5A6
+}
+
+.saber_mais {
+    margin-bottom: 30px;
+}
+
+.container {       
+    text-align: center;
+    width: 800px;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+}
+
+.container_banner {      
+    width: 800px;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+#banner img {
+    width: 100%;
+}
+
+#discos {
+    display: flex;
+    justify-content: center;
+}
+
+.container_discos {
+    background-color: #3E403F;    
+    width: 800px;
+}
+
+.discos_title {
+    font-size: 50px;
+    color: #d9d9d9;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.disco_ano {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.disco_nome {
+    font-size: 20px;
+    margin-top: 10px;
+    border-right: 4px solid #d9d9d9;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.discografia {
+    display: flex;
+
+}
+.discos_esq {
+    flex: 1;
+}
+
+.discos_dir {
+    flex: 1;
+}
+
+#discos img {
+    width: 80px;
+    margin-left: 20px;
+    border: 2px solid black;
+}
+
+.box_disco1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #727372;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.box_disco2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A4A5A6;  
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.disco1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;    
+    
+}
+
+.disco2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #A4A5A6;  
+    
+}
+
+footer {
+    padding: 20px;
+}
+
+.footer_container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer_desc {
+    color:#d9d9d9;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.logos {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.ph-github-logo,
+.ph-linkedin-logo,
+.ph-envelope-simple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d9d9d9; 
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
